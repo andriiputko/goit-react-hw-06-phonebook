@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getVisibleContacts } from '../../redux/contactSelectors';
 import { itemsSlice } from '../../redux/contactSlice';
 
+
 export const Contacts = () => {
   const items = useSelector(getVisibleContacts);
   const dispatch = useDispatch();
