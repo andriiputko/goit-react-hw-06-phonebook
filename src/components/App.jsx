@@ -7,11 +7,9 @@ export  function App() {
  
     return (
       <>
-
         <ContactForm />
         <Filter />
         <Contacts />          
-          
       </>
     );
   }
